@@ -1,0 +1,15 @@
+{
+  "name": "apollo-example",
+  "sources": {
+    "dir": "src",
+    "subdirs": true
+  },
+  "package-specs": {
+    "module": "esmodule",
+    "in-source": true
+  },
+  "suffix": ".gitignored.mjs",
+  "bsc-flags": ["-open RescriptCore"],
+  "bs-dependencies": ["@rescript/core", "@rescript-graphql-codegen/graphql", "@rescript-graphql-codegen/graphql-tag", "@rescript/react"],
+  "jsx": {"version": 4}
+}

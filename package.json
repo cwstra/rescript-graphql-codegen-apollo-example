@@ -1,0 +1,34 @@
+{
+  "name": "apollo-example",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "cwstra",
+  "scripts": {
+    "codegen": "graphql-codegen -o",
+    "serve": "vite",
+    "build": "rescript"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.9.11",
+    "@favware/graphql-pokemon": "^8.5.0",
+    "@mantine/core": "^7.8.1",
+    "@mantine/hooks": "^7.8.1",
+    "@rescript-graphql-codegen/graphql": "^0.0.3",
+    "@rescript-graphql-codegen/graphql-tag": "^0.0.3",
+    "@rescript/react": "^0.12.1",
+    "graphql": "^16.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "vite": "^5.2.10"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "^5.0.2",
+    "@graphql-codegen/near-operation-file-preset": "^3.0.0",
+    "@parcel/watcher": "^2.4.1",
+    "@rescript-graphql-codegen/base-types": "^0.0.10",
+    "@rescript-graphql-codegen/operations": "^0.0.11",
+    "esbuild": "^0.20.2",
+    "rescript": "^11.1.0",
+    "typescript": "^5.3.3"
+  }
+}
